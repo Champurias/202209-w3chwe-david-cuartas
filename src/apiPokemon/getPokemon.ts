@@ -4,4 +4,5 @@ const getPokemon = async (pokemonUrl: string) => {
   const result = (await response.json()) as PokemonInfo;
   return result;
 };
+
 export default getPokemon;
